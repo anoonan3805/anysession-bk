@@ -1,0 +1,34 @@
+{
+  "name": "session",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "officeID": {
+      "type": "number",
+      "required": false
+    },
+    "dateBooked": {
+      "type": "date",
+      "required": false
+    },
+    "sessionDate": {
+      "type": "date",
+      "required": false
+    },
+    "sessionsRequested": {
+      "type":"string",
+      "required": true
+    },
+    "userID": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
