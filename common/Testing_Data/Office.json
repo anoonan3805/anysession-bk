@@ -1,0 +1,19 @@
+[{
+    "officeName": "Room A",
+    "buildingID": "581d0c2a146ddb0ea4263a6c",
+    "timesAvailable": [
+      "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"
+    ],
+    "id": "581c2b59146ddb0ea4263a66"
+  },
+
+  {
+    "officeName": "Room B",
+    "buildingID": "581d0c2a146ddb0ea4263a6c",
+    "timesAvailable": [
+      "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"
+    ],
+    "id": "581d131c146ddb0ea4263a6d"
+
+  }
+]

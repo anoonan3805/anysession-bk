@@ -1,0 +1,46 @@
+[
+  {
+    "officeID": "581c2b59146ddb0ea4263a66",
+    "dateBooked": "2016-11-04",
+    "sessionDate": "2016-11-05",
+    "sessionsRequested": ["8"],
+    "userID": "57be26ea4357eb3ae7cd5928",
+    "id":"57be29694357eb3ae7cd5929"
+  },{
+    "officeID": "581c2b59146ddb0ea4263a66",
+    "dateBooked": "2016-11-04",
+    "sessionDate": "2016-11-05",
+    "sessionsRequested": ["9"],
+    "userID": "57be26ea4357eb3ae7cd5928",
+    "id":"57be29694357eb3ae7cd5930"
+  },{
+    "officeID": "581c2b59146ddb0ea4263a66",
+    "dateBooked": "2016-11-04",
+    "sessionDate": "2016-11-05",
+    "sessionsRequested": ["10"],
+    "userID": "57be26ea4357eb3ae7cd5928",
+    "id":"57be29694357eb3ae7cd5931"
+  },{
+    "officeID": "581c2b59146ddb0ea4264a66",
+    "dateBooked": "2016-11-04",
+    "sessionDate": "2016-11-05",
+    "sessionsRequested": ["8"],
+    "userID": "57be2dcc4357eb3ae7cd592c",
+    "id":"57be29694357eb3ae7cd5932"
+  },{
+    "officeID": "581c2b59146ddb0ea4264a66",
+    "dateBooked": "2016-11-04",
+    "sessionDate": "2016-11-05",
+    "sessionsRequested": ["9"],
+    "userID": "57be2dcc4357eb3ae7cd592c",
+    "id":"57be29694357eb3ae7cd5933"
+  },{
+    "officeID": "581c2b59146ddb0ea4264a66",
+    "dateBooked": "2016-11-04",
+    "sessionDate": "2016-11-05",
+    "sessionsRequested": ["10"],
+    "userID": "57be2dcc4357eb3ae7cd592c",
+    "id":"57be29694357eb3ae7cd5934"
+  }
+  
+]

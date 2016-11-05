@@ -7,7 +7,7 @@
   },
   "properties": {
     "officeID": {
-      "type": "number",
+      "type": "string",
       "required": false
     },
     "dateBooked": {
@@ -19,11 +19,13 @@
       "required": false
     },
     "sessionsRequested": {
-      "type":"string",
+      "type":[
+        "string"
+        ],
       "required": true
     },
     "userID": {
-      "type": "number",
+      "type": "string",
       "required": false
     }
   },
