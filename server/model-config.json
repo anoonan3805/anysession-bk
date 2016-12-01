@@ -32,7 +32,11 @@
     "dataSource": "db",
     "public": false
   },
-  "session": {
+  "Session": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Doctor": {
     "dataSource": "mongo",
     "public": true
   },
@@ -40,7 +44,7 @@
     "dataSource": "mongo",
     "public": true
   },
-  "building": {
+  "Building": {
     "dataSource": "mongo",
     "public": true
   }

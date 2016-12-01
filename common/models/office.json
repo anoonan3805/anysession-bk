@@ -13,12 +13,6 @@
     "buildingID": {
       "type": "string",
       "required": true
-    },
-    "timesAvailable": {
-      "type": [
-        "string"
-      ],
-      "required": true
     }
   },
   "validations": [],

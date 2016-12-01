@@ -1,5 +1,5 @@
 {
-  "name": "session",
+  "name": "Session",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,7 +10,7 @@
       "type": "string",
       "required": false
     },
-    "dateBooked": {
+    "createdDate": {
       "type": "date",
       "required": false
     },
@@ -18,15 +18,10 @@
       "type": "date",
       "required": false
     },
-    "sessionsRequested": {
-      "type":[
-        "string"
-        ],
-      "required": true
-    },
     "userID": {
       "type": "string",
-      "required": false
+      "required": false,
+      "default":"null"
     }
   },
   "validations": [],
