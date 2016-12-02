@@ -18,6 +18,10 @@
       "type": "date",
       "required": false
     },
+    "sessionHour": {
+      "type": "string",
+      "required": false
+    },
     "userID": {
       "type": "string",
       "required": false,

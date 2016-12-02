@@ -20,8 +20,6 @@ module.exports = function(app) {
             "buildingID": "1",
             "id": "1"
         };
-
-     
         
         var tempOffice2 = {
             "officeName": "B",
@@ -105,15 +103,16 @@ module.exports = function(app) {
                         checkSessions1();
                     }
                 }
-            })
-        };
+            });
+        }
         
         function checkSessions1(){
             async.forEachOf(tempOneSessionId, function(k, indexNum, next) {
                 
                 tempSessions1.id = tempOneSessionId[indexNum];
                 tempSessions1.sessionDate = tempDate;
-                tempSessions1.sessionDate.setHours(tempHours[indexNum], 0, 0, 0);
+                // tempSessions1.sessionDate.setHours(tempHours[indexNum], 0, 0, 0);
+                console.log("test");
                 
                 sessionModel.find({
                     where:{
@@ -124,6 +123,7 @@ module.exports = function(app) {
                         
                     }else{
                         if(success.length == 0){
+                            console.log("test2");
                             sessionModel.upsert(tempSessions1);
                             // console.log("hitUpsert?");
                             next();
